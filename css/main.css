@@ -1162,6 +1162,8 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+   transform: scale(0.8); 
+  transform-origin: top left;
 }
 
 .v2_48 {
