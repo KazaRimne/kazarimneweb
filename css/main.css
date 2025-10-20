@@ -1059,7 +1059,7 @@ body {
 
 
 
-/* @media (max-width: 600px) {} */
+@media (max-width: 600px) {
 
 body {
   font-size: 14px;
@@ -1929,4 +1929,5 @@ body {
   max-width: 100%;  /* 最大寬度不超過容器 */
   max-height: 100%; /* 最大高度不超過容器 */
   object-fit: contain; /* 保持比例，完整顯示 */
+}
 }
