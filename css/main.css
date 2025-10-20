@@ -49,7 +49,7 @@ body {
 }
 #profaft{position: absolute;
     color: rgba(255,255,255,1);
-      top: 220px;
+      top: 240px;
   left: 10%;
   width: 60%;
   font-family: Zen Kaku Gothic New;
@@ -76,7 +76,7 @@ body {
 }
 #zhprofaft{position: absolute;
     color: rgba(255,255,255,1);
-      top: 220px;
+      top: 240px;
   left: 10%;
   width: 60%;
   font-family: 'Noto Sans SC', sans-serif;
