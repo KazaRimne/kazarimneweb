@@ -20,7 +20,7 @@ body {
 #f{position: absolute;
     color: rgba(255,255,255,1);
       top: 147px;
-  left: 40%;
+  left: 10%;
   width: 60%;
   font-family: 'Noto Sans SC', sans-serif;
   font-weight: Regular;
@@ -33,7 +33,7 @@ body {
 #f2{position: absolute;
     color: rgba(255,255,255,1);
       top: 230px;
-  left: 40%;
+  left: 10%;
   width: 60%;
   font-family: 'Noto Sans SC', sans-serif;
   font-weight: Regular;
