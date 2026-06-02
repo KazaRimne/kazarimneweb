@@ -1991,9 +1991,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
-
-
-@media screen and (min-width: 601px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     
     #EmotionHuntertitle{
     font-size: 48px;
@@ -2277,8 +2275,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
-
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 body.no-scroll {
     overflow: hidden;
 }
