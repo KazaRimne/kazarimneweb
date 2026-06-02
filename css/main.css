@@ -2504,7 +2504,7 @@ left: 4%;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 200px;
+        right: 188px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
@@ -2527,7 +2527,7 @@ left: 4%;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 200px;
+        right: 188px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
