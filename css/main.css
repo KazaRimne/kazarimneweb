@@ -438,9 +438,9 @@ left: 4%;
 #egchoosed{
     width: 172px;
     background: rgba(19,17,25,1);
-    height: 76px;
+    height: 90px;
     position: absolute;
-    top: 8px;
+    top: 0px;
     right: 412px;
     /* 核心居中代碼 */
     display: flex; /* 啟用彈性佈局 */
@@ -507,10 +507,10 @@ left: 4%;
 }
 #jpchoosed{
     background: rgba(19,17,25,1);
-    width: 156px;
-    height: 76px;
+    width: 160px;
+    height: 90px;
     position: absolute;
-    top: 8px;
+    top: 0px;
     right: 254px;
     /* 核心居中代碼 */
     display: flex; /* 啟用彈性佈局 */
@@ -574,10 +574,10 @@ left: 4%;
 
 #zhchoosed{
     background: rgba(19,17,25,1);
-    width: 128px;
-    height: 76px;
+    width: 130px;
+    height: 90px;
     position: absolute;
-    top: 8px;
+    top: 0px;
     right: 124px;
     /* 核心居中代碼 */
     display: flex; /* 啟用彈性佈局 */
@@ -2373,7 +2373,7 @@ left: 4%;
 
 
     .v2_49 {
-        width: 140px;
+        width: 92px;
         height: 64px;
         background: rgba(19,17,25,1);
         opacity: 1;
@@ -2401,7 +2401,7 @@ left: 4%;
         opacity: 1;
         position: absolute;
         top: 60px;
-        left: 140px;
+        left: 80px;
         overflow: hidden;
     }
 
@@ -2409,11 +2409,11 @@ left: 4%;
         width: 100px;
         color: rgba(255,255,255,1);
         position: absolute;
-        top: 6px;
-        left: 34px;
+        top: 12px;
+        left: 18px;
         font-family: Zen Antique;
         font-weight: normal;
-        font-size: 24px;
+        font-size: 18px;
         opacity: 1;
         text-align: left;
     }
@@ -2436,9 +2436,9 @@ left: 4%;
         color: rgba(255,255,255,1);
         position: absolute;
         top: 42px;
-        left: 32px;
+        left: 18px;
         font-family: "Times New Roman", Times, serif;
-        font-size: 14px;
+        font-size: 10px;
         opacity: 1;
         text-align: left;
         letter-spacing: 0.05em;
@@ -2500,7 +2500,7 @@ left: 4%;
     
 
 #egchoosed{
-   width: 108px;
+   width: 80px;
         height: 60px;
         position: absolute;
         top: 0px;
@@ -2517,13 +2517,13 @@ left: 4%;
     position: relative;
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     opacity: 1;
     text-align: center;
 }
 
     .container {
-        width: 108px;
+        width: 80px;
         height: 60px;
         position: absolute;
         top: 0px;
@@ -2541,7 +2541,7 @@ left: 4%;
         position: relative;
         font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 18px;
         opacity: 1;
         text-align: center;
         cursor: pointer;
@@ -2571,7 +2571,7 @@ left: 4%;
 }
 #jpchoosed{
     background: rgba(19,17,25,1);
-   width: 86px;
+   width: 80px;
         height: 60px;
         position: absolute;
         top: 0px;
@@ -2587,13 +2587,13 @@ left: 4%;
     position: relative;
     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     opacity: 1;
     text-align: center;
     letter-spacing: 0.05em;
 }
     .containerjp {
-        width: 86px;
+        width: 80px;
         height: 60px;
         position: absolute;
         top: 0px;
@@ -2610,7 +2610,7 @@ left: 4%;
         position: relative;
         font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 18px;
         opacity: 1;
         text-align: center;
         cursor: pointer;
@@ -2637,7 +2637,7 @@ left: 4%;
         }
 
 #zhchoosed{
-   width: 80px;
+   width: 70px;
         height: 60px;
         position: absolute;
         top: 0px;
@@ -2654,14 +2654,14 @@ left: 4%;
     position: relative;
     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     opacity: 1;
     text-align: center;
     letter-spacing: 0.05em;
 }
 
     .containerzh {
-        width: 80px;
+        width: 70px;
         height: 60px;
         position: absolute;
         top: 0px;
@@ -2679,7 +2679,7 @@ left: 4%;
         position: relative;
         font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 18px;
         opacity: 1;
         text-align: center;
         cursor: pointer;
@@ -2942,54 +2942,54 @@ left: 4%;
 }
 
 
-    #icon_1{
-      position: relative;
-      top: 6900px;
-      left: 8%;
-      
-}#icon_2{
+   #icon_1 {
   position: relative;
   top: 6980px;
   left: 8%;
 }
-#icon_3{
+#icon_2 {
   position: relative;
-  top: 7060px;
+  top: 7030px;
   left: 8%;
 }
-#icon_4{
+#icon_3 {
   position: relative;
-  top: 7140px;
+  top: 7080px;
   left: 8%;
 }
-#icon_5{
+#icon_4 {
   position: relative;
-  top: 7220px;
+  top: 7130px;
   left: 8%;
 }
-#icon_6{
+#icon_5 {
   position: relative;
-  top: 7300px;
+  top: 7180px;
   left: 8%;
 }
-#icon_7{
+#icon_6 {
+  position: relative;
+  top: 7230px;
+  left: 8%;
+}
+#icon_7 {
+  position: relative;
+  top: 7280px;
+  left: 8%;
+}
+#icon_8 {
+  position: relative;
+  top: 7330px;
+  left: 8%;
+}
+#icon_9 {
   position: relative;
   top: 7380px;
   left: 8%;
 }
-#icon_8{
+#icon_10 {
   position: relative;
-  top: 7460px;
-  left: 8%;
-}
-#icon_9{
-  position: relative;
-  top: 7540px;
-  left: 8%;
-}
-#icon_10{
-  position: relative;
-  top: 7620px;
+  top: 7430px;
   left: 8%;
 }
 #zh_1_cotent{
@@ -3210,7 +3210,7 @@ left: 14%;
 #zh_Worldview_title{
     left: 10%;
     width: 82%; 
-    top: 700px;
+    top: 560px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
@@ -3222,7 +3222,7 @@ left: 14%;
 #zh_Worldview{
     left: 10%;
     width: 82%; 
-    top: 788px;
+    top: 650px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
@@ -3237,7 +3237,7 @@ left: 14%;
 #jp_Worldview_title{
     left: 10%;
     width: 82%; 
-    top: 700px;
+    top: 560px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
@@ -3249,7 +3249,7 @@ left: 14%;
 #jp_Worldview{
     left: 10%;
     width: 82%; 
-    top: 788px;
+    top: 650px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
@@ -3263,7 +3263,7 @@ left: 14%;
 #eg_Worldview_title{
     left: 10%;
     width: 82%; 
-    top: 700px;
+    top: 560px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -3275,7 +3275,7 @@ left: 14%;
 #eg_Worldview{
     left: 10%;
     width: 82%; 
-    top: 788px;
+    top: 620px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -3291,7 +3291,7 @@ left: 14%;
 
 .youtubeplay {
   position: absolute;
-  top: 3680px;
+  top: 3600px;
   left: 0%;          
   width: 100%;                   
   transform: translateX(0%);
@@ -3300,7 +3300,7 @@ left: 14%;
 #Developer{
   position:  absolute;
   width: 90%; 
-  top: 4020px;
+  top: 3900px;
   height: 600px; 
 }
 
@@ -3383,7 +3383,7 @@ left: 14%;
    left: 0%;
   position:  absolute;
   width: 100%; 
-  top: 2000px;
+  top: 2100px;
   height: 1200px; 
 }
 
@@ -3400,7 +3400,7 @@ left: 14%;
  width: 100%;
   opacity: 1;
   position: absolute;
-  top: 320px;
+  top: 260px;
   left: 0%;
   overflow: hidden;
 
@@ -3409,7 +3409,7 @@ left: 14%;
 #Campaign{
   position:  absolute;
   width: 90%; 
-  top: 4400px;
+  top: 4280px;
   height: 1600px; 
 }
 
@@ -3438,7 +3438,7 @@ left: 14%;
     letter-spacing: 1px;
 }
 #eg_Campaigntext{
-    top:68%;
+    top:62%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3451,7 +3451,7 @@ left: 14%;
     
     letter-spacing: 1px;
 }.Email{
- top: 8300px;
+ top: 8060px;
     left:10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3468,7 +3468,7 @@ left: 14%;
 .Campaigntext2{
    position:  absolute;
   width: 90%; 
-  top: 5860px;
+  top: 5700px;
   height: 1800px; 
 }
 #eg_Campaigntext2{
@@ -3536,7 +3536,7 @@ left: 14%;
     letter-spacing: 2px;
 }
 #zh_Campaigntext{
-    top:68%;
+    top:62%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3573,7 +3573,7 @@ left: 14%;
     letter-spacing: 2px;
 }
 #jp_Campaigntext{
-    top:68%;
+    top:62%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3587,12 +3587,12 @@ left: 14%;
 }
 #icon_zeczec{
    left: 10%;
-   top: 300px;
+   top: 360px;
 }
 #Campaignimage{
   position:  absolute;
   width: 100%; 
-  top: 420px;
+  top: 480px;
   left: 4%;
   height: 100%; 
    border-top-left-radius: 0px;
@@ -3715,26 +3715,26 @@ left: 14%;
 #devtext_2{
   position:  absolute;
   width: 90%; 
-  top: 1840px;
+  top: 2000px;
   height: 1000px; 
 }
 #devtext_3{
   position:  absolute;
   width: 90%; 
-  top: 2720px;
+  top: 2900px;
   height: 1000px; 
 }
 #devtext_4{
   position:  absolute;
   width: 90%; 
-  top: 3560px;
+  top: 3720px;
   height: 1000px; 
 }
 #devimage_1 {
   width: 100%;
   opacity: 1;
   position: absolute;
-  top: 4300px;
+  top: 4500px;
   height: 40vh; 
   left: 0%;
   overflow: hidden;
@@ -3747,26 +3747,26 @@ left: 14%;
 #devtext_5{
   position:  absolute;
   width: 90%; 
-  top: 4800px;
+  top: 4920px;
   height: 1000px; 
 }
 #devtext_6{
   position:  absolute;
   width: 90%; 
-  top: 5300px;
+  top: 5400px;
   height: 1000px; 
 }
 #icon_devgithub{
    left: 10%;
-    top: 70%;
+    top: 78%;
 }
 #icon_devx{
    left: 10%;
-    top: 62%;
+    top: 70%;
 }
 #icon_devpixiv{
    left: 10%;
-    top: 50%;
+    top: 60%;
 }
 
 
