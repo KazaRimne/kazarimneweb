@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+
 * {
   box-sizing: border-box;
 }
@@ -1920,7 +1920,6 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   max-height: 100%; /* 最大高度不超過容器 */
   object-fit: contain; /* 保持比例，完整顯示 */
 }
-}
 
 
 
@@ -1993,7 +1992,8 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
-@media screen and (max-aspect-ratio: 1.59) and (min-width: 768px) {
+
+@media (max-width: 1024px) {
     
     #EmotionHuntertitle{
     font-size: 48px;
@@ -4075,5 +4075,4 @@ left: 14%;
 
   top: 60%;
 }
-
 }
