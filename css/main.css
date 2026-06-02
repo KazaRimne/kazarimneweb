@@ -1,3 +1,4 @@
+@media (min-width: 1024px) {
 * {
   box-sizing: border-box;
 }
@@ -1919,6 +1920,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   max-height: 100%; /* 最大高度不超過容器 */
   object-fit: contain; /* 保持比例，完整顯示 */
 }
+}
 
 
 
@@ -1991,8 +1993,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
-
-@media screen and (max-aspect-ratio: 16/10) and (min-width: 601px) {
+@media screen and (max-aspect-ratio: 1.59) and (min-width: 768px) {
     
     #EmotionHuntertitle{
     font-size: 48px;
@@ -2009,7 +2010,24 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 #jp_EmotionHuntertitle{
     font-size: 48px;
 }
+#icon_four{
 
+  display: none;
+}
+
+#coveryoutube {
+    left: 0%;
+    width: 100%;
+    height: auto;             /* 1. 把固定高度改為 auto */
+    aspect-ratio: 16 / 9;    
+    position: absolute;
+    opacity: 1;
+    text-align: left;
+}
+#GameContent {
+        
+        width: 90%;
+    }
 #eg_GameContent_title{
     font-size: 48px;
 }
@@ -2036,26 +2054,69 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 #zh_Worldview_title{
     font-size: 48px;
+     left: 5%;
+      top: 105%;
+    width: 82%; 
 }
 
 #zh_Worldview{
     font-size: 24px;
+     left: 10%;
+    width: 82%; 
+       top: 110%;
 }
 
 #jp_Worldview_title{
     font-size: 48px;
+     left: 5%;
+      top: 105%;
+    width: 82%; 
 }
 
 #jp_Worldview{
     font-size: 24px;
+     left: 10%;
+    width: 82%; 
+       top: 110%;
 }
 
 #eg_Worldview_title{
     font-size: 48px;
+     left: 5%;
+     top: 105%;
+    width: 82%; 
 }
 
 #eg_Worldview{
     font-size: 24px;
+     left: 5%;
+       top: 110%;
+    width: 82%; 
+}
+#WorldviewImages_1 {
+ width: 100%;
+  opacity: 1;
+  top: 0%;
+  position: absolute;
+  left: 0%;
+  overflow: hidden;
+
+}
+#WorldviewImages_2 {
+ width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 55%;
+  left: 0%;
+  overflow: hidden;
+
+}
+#Worldview{
+   left: 0%;
+  position:  absolute;
+  width: 100%; 
+  top: 2900px;
+  height: 1200px; 
 }
 
 #eg_Developer_title{
@@ -2097,7 +2158,9 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 #eg_Campaign_title{
     font-size: 48px;
 }
-
+#Campaign{
+    top: 6100px;
+}
 #eg_Campaign{
     font-size: 24px;
 }
@@ -2120,14 +2183,20 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 #eg_Campaigntext{
     font-size: 24px;
+    top: 50%;
+        left: 10%;
 }
 
 #zh_Campaigntext{
     font-size: 24px;
+    top: 50%;
+        left: 10%;
 }
 
 #jp_Campaigntext{
     font-size: 24px;
+    top: 50%;
+        left: 10%;
 }
 
 .Email{
@@ -2162,10 +2231,74 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   height: 28%;
 }
 #Developer{
-  top: 4700px;
+  top: 5100px;
 }
 .youtubeplay {
-  top: 5160px;
+  top: 5500px;
+   left: 0%;          
+  width: 100%;                   
+  transform: translateX(0%);
+}
+#icon_1{
+  position: relative;
+  top: 8900px;
+}
+  
+#icon_2{
+  position: relative;
+  top: 8980px;
+}
+
+#icon_3{
+  position: relative;
+  top: 9060px;
+}
+  
+#icon_4{
+  position: relative;
+  top: 9140px;
+}
+  
+#icon_5{
+  position: relative;
+  top: 9220px;
+}
+  
+#icon_6{
+  position: relative;
+  top: 8500px;
+  left: 50%;
+}
+
+#icon_7{
+  position: relative;
+  top: 8580px;
+  left: 50%;
+}
+
+#icon_8{
+  position: relative;
+  top: 8660px; 
+  left: 50%;
+}
+
+#icon_9{
+  position: relative;
+  top: 8740px;
+  left: 50%;
+}
+
+#icon_10{
+  position: relative;
+  top: 8820px;
+  left: 50%;
+}
+.Email{
+ top: 9700px;
+  
+}
+.Campaigntext2{
+  top: 7500px;
 }
 }
 
@@ -2995,16 +3128,7 @@ left: 4%;
     display: flex;
 }
 
-#coveryoutube {
-    left: 0%;
-    width: 60%;
-    height: auto;             /* 1. 把固定高度改為 auto */
-    aspect-ratio: 16 / 9;     /* 2. 強制設定寬高比為 16:9 */
-    top: 0%;
-    position: relative;
-    opacity: 1;
-    text-align: left;
-}
+
 #coveryoutube {
     left: 0%;
     width: 100%;
