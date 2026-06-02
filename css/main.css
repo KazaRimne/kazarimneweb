@@ -2941,55 +2941,54 @@ left: 4%;
   object-fit: contain; /* 保持比例，完整顯示 */
 }
 
-
 #icon_1 {
-  position: relative;
-  top: 7080px;
-  left: 8%;
-}
-#icon_2 {
-  position: relative;
-  top: 7130px;
-  left: 8%;
-}
-#icon_3 {
   position: relative;
   top: 7180px;
   left: 8%;
 }
-#icon_4 {
+#icon_2 {
   position: relative;
   top: 7230px;
   left: 8%;
 }
-#icon_5 {
+#icon_3 {
   position: relative;
   top: 7280px;
   left: 8%;
 }
-#icon_6 {
+#icon_4 {
   position: relative;
   top: 7330px;
   left: 8%;
 }
-#icon_7 {
+#icon_5 {
   position: relative;
   top: 7380px;
   left: 8%;
 }
-#icon_8 {
+#icon_6 {
   position: relative;
   top: 7430px;
   left: 8%;
 }
-#icon_9 {
+#icon_7 {
   position: relative;
   top: 7480px;
   left: 8%;
 }
-#icon_10 {
+#icon_8 {
   position: relative;
   top: 7530px;
+  left: 8%;
+}
+#icon_9 {
+  position: relative;
+  top: 7580px;
+  left: 8%;
+}
+#icon_10 {
+  position: relative;
+  top: 7630px;
   left: 8%;
 }
 #zh_1_cotent{
@@ -3451,7 +3450,7 @@ left: 14%;
     
     letter-spacing: 1px;
 }.Email{
- top: 8060px;
+ top: 8160px;
     left:10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
