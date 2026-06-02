@@ -1,0 +1,3773 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.eg {
+  z-index: 10;
+}
+
+.zh {
+  display: none;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  z-index: 10;
+}
+
+.jp {
+  display: none;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  z-index: 10;
+}
+
+.overlay{
+  
+position: fixed;
+top: 0;
+left: 60%;
+width: 100%;
+height: 100%;
+background: rgba(19,17,25,1);
+display: none;
+z-index: 30;
+}
+#developlop{
+height: 600px;
+  display: none;
+}
+#xmain {
+  width: 72px;
+  height: 72px;
+  opacity: 1;
+  position: relative;
+ top: 44px;
+  left: 34%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#x_1 {
+   width: 72px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  transform: rotate(45deg);
+  top: 36PX;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+#x_2 {
+  width: 72px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  transform: rotate(135deg);
+  top: 28PX;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+
+
+.v2_54 {
+  width: 60px;
+  height: 60px;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  right: 1.5%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.v2_55 {
+  width: 54px;
+  height: 9px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v2_56 {
+  width: 54px;
+  height: 9px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v2_57 {
+  width: 54px;
+  height: 9px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+#eg_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 4%;
+}
+#eg_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 4%;
+}
+#eg_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 4%;
+}
+#eg_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 4%;
+}
+#eg_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 4%;
+}
+#eg_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 4%;
+}
+#eg_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 4%;
+}
+
+
+#eg_1 {
+    
+    color:  rgba(255,255,255,1);
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    z-index: 15;
+}
+  #eg_1::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(255,255,255,1);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 50px;
+    }
+    #eg_1:hover::after {
+    transform: scaleX(1);           /* 變回原寬度 */
+}
+
+#jp_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 4%;
+}
+#jp_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 4%;
+}
+#jp_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 4%;
+}
+#jp_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 4%;
+}
+#jp_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 4%;
+}
+#jp_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 4%;
+}
+#jp_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 4%;
+}
+
+#jp_1 {
+    
+    color:  rgba(255,255,255,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    z-index: 15;
+}
+  #jp_1::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(255,255,255,1);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 50px;
+    }
+    #jp_1:hover::after {
+    transform: scaleX(1);           /* 變回原寬度 */
+}
+
+#zh_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 4%;
+}
+#zh_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 4%;
+}
+#zh_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 4%;
+}
+#zh_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 4%;
+}
+#zh_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 4%;
+}
+#zh_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 4%;
+}
+#zh_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 4%;
+}
+
+#zh_1 {
+    
+    color:  rgba(255,255,255,1);
+    position: relative;
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    z-index: 15;
+}
+  #zh_1::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(255,255,255,1);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 50px;
+    }
+    #zh_1:hover::after {
+    transform: scaleX(1);           /* 變回原寬度 */
+}
+
+.v1_4 {
+    width: 100%;
+    height: 750vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    transform-origin: top left;
+    display: flex;
+}
+.v2_48 {
+    width: 100%;
+    height: 92px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.v2_49 {
+  width: 200px;
+  height: 92px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_50 {
+  width: 148px;
+  height: 40px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 52px;
+  left: 206px;
+  overflow: hidden;
+}
+.v2_51 {
+  width: 100%;
+  height: 4px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 88px;
+  left: 360px;
+  overflow: hidden;
+}
+.v2_52 {
+    width: 10%;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-family: Zen Antique;
+    font-weight: normal;
+    font-size: 34px;
+    opacity: 1;
+    text-align: left;
+}
+#v2_53 {
+    width: 108px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 52px;
+    left: 219px;
+    font-family: Zen Antique;
+    font-weight: normal;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+#v22_53 {
+    width: 108px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 62px;
+    left: 230px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+#egchoosed{
+    width: 172px;
+    background: rgba(19,17,25,1);
+    height: 76px;
+    position: absolute;
+    top: 8px;
+    right: 412px;
+    /* 核心居中代碼 */
+    display: flex; /* 啟用彈性佈局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    overflow: visible;
+  
+}
+#egv2_61 {
+    width: 108px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.container {
+    
+    width: 172px;
+    height: 76px;
+    position: absolute;
+    top: 8px;
+    right: 412px;
+    /* 核心居中代碼 */
+    display: flex; /* 啟用彈性佈局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    overflow: visible;
+}
+#v2_61 {
+    width: 108px;
+    color: rgba(19,17,25,1);
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+    #v2_61::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(19,17,25,1);
+        /* 初始狀態：中心縮小 */
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform 0.3s ease-out;
+        border-radius: 50px;
+    }
+#v2_61:hover::after {
+    transform: scaleX(1); /* 橫桿展開 */
+}
+.hide-layer {
+    display: none !important;
+}
+#jpchoosed{
+    background: rgba(19,17,25,1);
+    width: 156px;
+    height: 76px;
+    position: absolute;
+    top: 8px;
+    right: 254px;
+    /* 核心居中代碼 */
+    display: flex; /* 啟用彈性佈局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+}
+#jpv2_62 {
+    width: 104px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.containerjp {
+    width: 156px;
+    height: 76px;
+    position: absolute;
+    top: 8px;
+    right: 254px;
+    /* 核心居中代碼 */
+    display: flex; /* 啟用彈性佈局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+}
+#v2_62 {
+    width: 104px;
+    color: rgba(19,17,25,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+}
+#v2_62::after {
+    content: '';
+    position: absolute;
+    width: 100%; /* 寬度與文字一樣長 */
+    height: 3px; /* 橫桿厚度 */
+    bottom: -2px; /* 距離文字底部的距離，可視情況調整 */
+    left: 0;
+    background-color: rgba(19,17,25,1);
+    /* 初始狀態：中心縮小 */
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-out;
+    border-radius: 50px;
+}
+
+/* 觸發效果：當滑鼠/手指碰到文字時 */
+#v2_62:hover::after {
+    transform: scaleX(1); /* 橫桿展開 */
+}
+
+
+#zhchoosed{
+    background: rgba(19,17,25,1);
+    width: 128px;
+    height: 76px;
+    position: absolute;
+    top: 8px;
+    right: 124px;
+    /* 核心居中代碼 */
+    display: flex; /* 啟用彈性佈局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    overflow: visible;
+}
+#zhv2_63 {
+    width: 86px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.containerzh {
+    width: 128px;
+    height: 76px;
+    position: absolute;
+    top: 8px;
+    right: 124px;
+    /* 核心居中代碼 */
+    display: flex; /* 啟用彈性佈局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    overflow: visible;
+}
+#v2_63 {
+    width: 86px;
+    color: rgba(19,17,25,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+}
+    #v2_63::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -2px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(19,17,25,1);
+        /* 初始狀態：中心縮小 */
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform 0.3s ease-out;
+        border-radius: 50px;
+    }
+
+    /* 觸發效果：當滑鼠/手指碰到文字時 */
+    #v2_63:hover::after {
+        transform: scaleX(1); /* 橫桿展開 */
+    }
+
+#Steamlink{
+  width: 40%;
+  opacity: 1;
+  position: absolute;
+  top: 160px;
+  height: 1000px;
+  left: 0%;
+  overflow: hidden;
+}
+#EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+    left: 5%;
+     top: 5%;
+}
+
+#eg_EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+    left: 20%;
+    top: 25%;
+}
+
+#zh_EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+    left: 20%;
+    top: 25%;
+}
+
+#jp_EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+    left: 16%;
+    top: 25%;
+}
+
+#icon_steam{
+    left: 20%;
+    top: 44%;
+
+}
+
+#eg_available{
+    left: 20%;
+    width: 70%;
+    top: 62%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight:  Medium;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_available{
+    left: 20%;
+    
+    width: 70%;
+    top: 62%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight:  Medium;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_available{
+    left: 20%;
+    
+    width: 70%;
+    top: 62%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight:  Medium;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.v2_68 {
+  width: 60%;
+  opacity: 1;
+  position: absolute;
+  top: 160px;
+  left: 40%;
+  overflow: hidden;
+}
+.v2_68 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+#coveryoutubeDIV{
+    width: 100%;
+    top: 1100px;
+    position: absolute;
+    opacity: 1;
+     height: 800px; 
+    left: 0%;
+    text-align: left;
+    display: flex;
+}
+
+#coveryoutube {
+    left: 0%;
+    width: 60%;
+    height: auto;             /* 1. 把固定高度改為 auto */
+    aspect-ratio: 16 / 9;     /* 2. 強制設定寬高比為 16:9 */
+    top: 0%;
+    position: relative;
+    opacity: 1;
+    text-align: left;
+}
+
+#GameContent{
+  position:  absolute;
+  width: 90%; 
+  top: 2000px;
+  height: 600px; 
+}
+
+#eg_GameContent_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_GameContent{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#jp_GameContent_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_GameContent{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#zh_GameContent_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_GameContent{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#Worldview{
+   left: 0%;
+  position:  absolute;
+  width: 90%; 
+  top: 2880px;
+  height: 600px; 
+}
+#WorldviewImages{
+  left: 0%;
+  width: 60%; 
+   display: flex;  
+   flex-direction: column;
+}
+
+
+#WorldviewImages_1 {
+ width: 56%;
+  opacity: 1;
+  position: absolute;
+  left: 0%;
+  overflow: hidden;
+
+}
+#WorldviewImages_1 img {
+  max-width: 100%;  
+  max-height: 100%; 
+  object-fit: contain; 
+  left: 0%;
+}
+#WorldviewImages_2 {
+ width: 56%;
+  opacity: 1;
+  position: absolute;
+  top: 130%;
+  left: 0%;
+  overflow: hidden;
+
+}
+#WorldviewImages_2 img {
+  max-width: 100%;  
+  max-height: 100%; 
+  object-fit: contain; 
+  left: 0%;
+}
+
+
+#zh_Worldview_title{
+    left: 66%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_Worldview{
+    left: 66%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#jp_Worldview_title{
+    left: 66%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_Worldview{
+    left: 66%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#eg_Worldview_title{
+    left: 66%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_Worldview{
+    left: 66%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#Developer{
+  position:  absolute;
+  width: 90%; 
+  top: 4560px;
+  height: 600px; 
+}
+
+#eg_Developer_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_Developer{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#zh_Developer_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_Developer{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#jp_Developer_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_Developer{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.youtubeplay {
+  position: absolute;
+  top: 5000px;
+  left: 50%;                         /* 左端を画面の50%の位置に合わせる */
+  transform: translateX(-50%);       /* 要素自身の幅の半分（50%）だけ左に戻す（これで完全中央） */
+  
+  width: 60%;                        /* 画面幅の60%に設定 */
+  aspect-ratio: 16 / 9;              /* 縦横比を16:9に固定 */
+  
+  /* text-align: center; は中の文字用なので、iframeだけなら消しても大丈夫です */
+}
+
+/* iframeが親要素（.youtubeplay）の16:9のサイズにぴったり追従するように設定 */
+.youtubeplay iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#Campaign{
+  position:  absolute;
+  width: 90%; 
+  top: 5900px;
+  height: 1800px; 
+}
+#eg_Campaigntext2{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#zh_Campaigntext2{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#jp_Campaigntext2{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.Campaigntext2{
+   position:  absolute;
+  width: 90%; 
+  top: 7400px;
+  height: 1200px; 
+}
+#eg_Campaign_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_Campaign{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#zh_Campaign_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_Campaign{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#jp_Campaign_title{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_Campaign{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#Campaignimage{
+  position:  absolute;
+  width: 40%; 
+  top: 420px;
+  left: 5%;
+  height: 100%; 
+   border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+#Campaignimage img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain;
+   border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+#eg_Campaigntext{
+  top: 40%;
+    left: 55%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#zh_Campaigntext{
+  top: 40%;
+    left: 55%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#jp_Campaigntext{
+  top: 40%;
+    left: 55%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.Email{
+ top: 9400px;
+    left:8%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+
+}
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;     
+  align-items: center; 
+  white-space: nowrap;
+}
+.icon img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  flex-shrink: 0;      /* 防止圖片被文字擠壓變形 */
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+
+#SNStitle{
+    color: rgba(19, 17, 25, 1);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 450;
+    margin-left: 42px;
+    font-size: 42px;
+    opacity: 1;
+    text-align: center;
+   
+    z-index: 20;
+    text-decoration: none;
+}
+#SNStitlejp{
+ color: rgba(19, 17, 25, 1);
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: 450;
+    margin-left: 42px;
+    font-size: 42px;
+    opacity: 1;
+    text-align: center;
+   
+    z-index: 20;
+    text-decoration: none;
+
+}
+#SNStitlezh{
+ color: rgba(19, 17, 25, 1);
+     font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: 450;
+    margin-left: 42px;
+    font-size: 42px;
+    opacity: 1;
+    text-align: center;
+   
+    z-index: 20;
+    text-decoration: none;
+
+}
+
+.SNShold{
+  position: absolute;
+  max-width: 100%;  
+  max-height: 80px;   
+  left: 8%;
+  display: flex;       /* 讓內部的 .icon 和 .SNStitle 並排 */
+  align-items: center; /* 垂直居中對齊 */
+  width: fit-content;
+   cursor: pointer;
+   text-decoration: none;
+  z-index: 20;
+}
+.SNShold::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 5px; /* 橫桿厚度 */
+        bottom: +2px; /* 距離文字底部的距離，可視情況調整 */
+        left: 120px;
+        background-color: rgba(19, 17, 25, 1);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 50px;
+    }
+    .SNShold:hover::after {
+    transform: scaleX(1);           /* 變回原寬度 */
+}
+
+
+#icon_four{
+
+  width: 40%;
+  height: 100%; 
+  position: relative;
+  text-align: right;
+}
+
+#icon_11 {
+  top: 5%;
+  left: 12%;
+  position: absolute;
+}
+
+#icon_22 {
+  top:30%;
+  left: 12%;
+  position: absolute;
+}
+
+#icon_33 {
+  top: 55%;
+ left: 12%;
+  position: absolute;
+}
+
+#icon_44 {
+  top: 80%;
+  left: 12%;
+  position: absolute;
+}
+#icon_zeczec {
+  top: 25%;
+  left: 55%;
+  position: absolute;
+}
+
+#icon_1{
+  position: relative;
+  top: 8600px;
+}
+  
+#icon_2{
+  position: relative;
+  top: 8680px;
+}
+
+#icon_3{
+  position: relative;
+  top: 8760px;
+}
+  
+#icon_4{
+  position: relative;
+  top: 8840px;
+}
+  
+#icon_5{
+  position: relative;
+  top: 8920px;
+}
+  
+#icon_6{
+  position: relative;
+  top: 8200px;
+  left: 50%;
+}
+
+#icon_7{
+  position: relative;
+  top: 8280px;
+  left: 50%;
+}
+
+#icon_8{
+  position: relative;
+  top: 8360px; 
+  left: 50%;
+}
+
+#icon_9{
+  position: relative;
+  top: 8440px;
+  left: 50%;
+}
+
+#icon_10{
+  position: relative;
+  top: 8520px;
+  left: 50%;
+}
+
+.v2_94 {
+  width: 186px;
+  height: 57px;
+  background: url("../images/v2_94.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 293px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_95 {
+  width: 186px;
+  height: 57px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_79 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+.v2_96 {
+  width: 97px;color: rgba(19,17,25,0);
+  position: absolute;
+  top: 20px;
+  left: 73px;
+  font-family: Yaldevi;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.youtube {
+  width: 100%;
+  height: 589px;
+  background: rgba(67,67,67,1);
+  opacity: 1;
+  position: absolute;
+  top: 1300px;
+  left: 143px;
+  overflow: hidden;
+  display: none;
+}
+.v2_81 {
+  width: 775px;
+  height: 77px;
+  background: url("../images/v2_81.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2082px;
+  left: 143px;
+  overflow: hidden;
+}
+.v2_88 {
+  width: 210px;
+  height: 77px;
+  background: url("../images/v2_88.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 281px;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.v2_89 {
+  width: 200px;
+  height: 63px;
+  background: rgba(0,156,173);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.v2_91 {
+  width: 257px;
+  height: 72px;
+  background: url("../images/v2_91.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 518px;
+}
+.v2_92 {
+  width: 63px;
+  height: 63px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_92 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+.v2_93 {
+  width: 167px;
+  color: rgba(19,17,25,1);
+  position: absolute;
+  top: 32px;
+  left: 90px;
+  font-family: Yaldevi;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_97 {
+  width: 254px;
+  height: 63px;
+  background: url("../images/v2_97.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.v2_98 {
+  width: 63px;
+  height: 63px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.v2_98 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+.v2_99 {
+  width: 166px;
+  color: rgba(19,17,25,1);
+  position: absolute;
+  top: 32px;
+  left: 88px;
+  font-family: Yaldevi;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.v2_27 {
+  width: 0px;
+  height: 0px;
+  background: url("../images/v2_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_25 {
+  width: 0px;
+  height: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_25 img {
+  max-width: 0%;  /* 最大寬度不超過容器 */
+  max-height: 0%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+.v2_23 {
+  width: 0px;
+  position: absolute;
+  top: 10px;
+  left: 36px;
+  font-family: Yaldevi;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_33 img {
+  max-width: 0%;  /* 最大寬度不超過容器 */
+  max-height: 0%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+.v2_28 {
+  width: 0px;
+  height: 0px;
+  background: url("../images/v2_28.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 160px;
+  overflow: hidden;
+}
+.v2_29 {
+  width: 0px;
+  height:0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_29 img {
+  max-width: 0%;  /* 最大寬度不超過容器 */
+  max-height: 0%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+
+.v2_30 {
+  width: 0px;
+  color: rgba(19,17,25,1);
+  position: absolute;
+  top: 10px;
+  left: 36px;
+  font-family: Yaldevi;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_33 {
+  width: 0px;
+  height: 0px;
+  background: url("../images/v2_33.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_34 {
+  width: 0px;
+  height: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_34 img {
+  max-width: 0%;  /* 最大寬度不超過容器 */
+  max-height: 0%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+.boldfront{
+   font-weight: bold;
+    font-size: 32px;
+
+}
+
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+
+
+
+
+.eg_devtext_title_left{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+.eg_devtext_left{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.jp_devtext_title_left{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+.jp_devtext_left{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.zh_devtext_title_left{
+    left: 5%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+.zh_devtext_left{
+    left: 10%;
+    top: 132px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+
+
+#devtext_1{
+  position:  absolute;
+  width: 90%; 
+  top: 1020px;
+  height: 600px; 
+}
+
+#devtext_2{
+  position:  absolute;
+  width: 90%; 
+  top: 2000px;
+  height: 1000px; 
+}
+#devtext_3{
+  position:  absolute;
+  width: 90%; 
+  top: 3040px;
+  height: 1000px; 
+}
+#devtext_4{
+  position:  absolute;
+  width: 90%; 
+  top: 3900px;
+  height: 1000px; 
+}
+#devimage_1 {
+  width: 60%;
+  opacity: 1;
+  position: absolute;
+  top: 4460px;
+  height: 80%;
+  left: 20%;
+  overflow: hidden;
+}
+#devimage_1 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+#UnityAnalysis{
+  left: 0%;
+  top: 90%;
+  width: 100%; 
+  text-align: center;
+}
+#devtext_5{
+  position:  absolute;
+  width: 90%; 
+  top: 5500px;
+  height: 1000px; 
+}
+#devtext_6{
+  position:  absolute;
+  width: 90%; 
+  top: 6100px;
+  height: 1000px; 
+}
+#icon_devgithub{
+   left: 10%;
+    top: 65%;
+}
+#icon_devx{
+   left: 10%;
+    top: 50%;
+}
+#icon_devpixiv{
+   left: 50%;
+    top: 50%;
+}
+#devimage_2 {
+  width: 60%;
+  opacity: 1;
+  position: absolute;
+  top: 160px;
+  left: 20%;
+  overflow: hidden;
+}
+#devimage_2 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+body.no-scroll {
+    overflow: hidden;
+}
+.overlay{
+  
+position: fixed;
+top: 0;
+left: 0%;
+width: 100%;
+height: 100%;
+background: rgba(19,17,25,1);
+display: none;
+z-index: 30;
+}
+
+#xmain {
+  width: 60px;
+  height: 60px;
+  opacity: 1;
+  position: relative;
+  top: 40px;
+  left: 74%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#x_1 {
+   width: 60px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  transform: rotate(45deg);
+  top: 32PX;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+#x_2 {
+  width: 60px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  transform: rotate(135deg);
+  top: 24PX;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+
+
+#eg_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 4%;
+}
+#eg_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 4%;
+}
+#eg_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 4%;
+}
+#eg_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 4%;
+}
+#eg_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 4%;
+}
+#eg_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 4%;
+}
+#eg_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 4%;
+}
+
+
+#eg_1 {
+    
+    color:  rgba(255,255,255,1);
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    z-index: 15;
+}
+  #eg_1::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(255,255,255,1);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 50px;
+    }
+    #eg_1:hover::after {
+    transform: scaleX(1);           /* 變回原寬度 */
+}
+
+#jp_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 4%;
+}
+#jp_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 4%;
+}
+#jp_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 4%;
+}
+#jp_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 4%;
+}
+#jp_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 4%;
+}
+#jp_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 4%;
+}
+#jp_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 4%;
+}
+
+#jp_1 {
+    
+    color:  rgba(255,255,255,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    z-index: 15;
+}
+  #jp_1::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(255,255,255,1);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 50px;
+    }
+    #jp_1:hover::after {
+    transform: scaleX(1);           /* 變回原寬度 */
+}
+
+#zh_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 4%;
+}
+#zh_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 4%;
+}
+#zh_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 4%;
+}
+#zh_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 4%;
+}
+#zh_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 4%;
+}
+#zh_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 4%;
+}
+#zh_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 4%;
+}
+
+#zh_1 {
+    
+    color:  rgba(255,255,255,1);
+    position: relative;
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    z-index: 15;
+}
+  #zh_1::after {
+        content: '';
+        position: absolute;
+        width: 100%; /* 寬度與文字一樣長 */
+        height: 3px; /* 橫桿厚度 */
+        bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+        left: 0;
+        background-color: rgba(255,255,255,1);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 50px;
+    }
+    #zh_1:hover::after {
+    transform: scaleX(1);           /* 變回原寬度 */
+}
+
+
+    .v2_49 {
+        width: 140px;
+        height: 64px;
+        background: rgba(19,17,25,1);
+        opacity: 1;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+    }
+
+    .v2_50 {
+        width: 0px;
+        height: 0px;
+        background: rgba(19,17,25,1);
+        opacity: 1;
+        position: absolute;
+        top: 60px;
+        left: 212px;
+        overflow: hidden;
+    }
+
+    .v2_51 {
+        width: 100%;
+        height: 4px;
+        background: rgba(19,17,25,1);
+        opacity: 1;
+        position: absolute;
+        top: 60px;
+        left: 140px;
+        overflow: hidden;
+    }
+
+    .v2_52 {
+        width: 100px;
+        color: rgba(255,255,255,1);
+        position: absolute;
+        top: 6px;
+        left: 34px;
+        font-family: Zen Antique;
+        font-weight: normal;
+        font-size: 24px;
+        opacity: 1;
+        text-align: left;
+    }
+
+    #v2_53 {
+        width: 108px;
+        color: rgba(255,255,255,1);
+        position: absolute;
+        top: 52px;
+        left: 219px;
+        font-family: Zen Antique;
+        font-weight: normal;
+        font-size: 18px;
+        opacity: 1;
+        text-align: left;
+    }
+
+    #v22_53 {
+        width: 140px;
+        color: rgba(255,255,255,1);
+        position: absolute;
+        top: 42px;
+        left: 32px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 14px;
+        opacity: 1;
+        text-align: left;
+        letter-spacing: 0.05em;
+    }
+    .v2_54 {
+        width: 48px;
+        height: 48px;
+        opacity: 1;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        overflow: hidden;
+        transform: scale(0.7);
+        transform-origin: right top;
+        cursor: pointer;
+    }
+    .v2_55 {
+  width: 48px;
+  height: 9px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v2_56 {
+  width: 48px;
+  height: 9px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v2_57 {
+  width: 48px;
+  height: 9px;
+  background: rgba(19,17,25,1);
+  opacity: 1;
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+    
+
+#egchoosed{
+   width: 108px;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        right: 216px;
+        /* 核心居中代碼 */
+        display: flex; /* 啟用彈性佈局 */
+        justify-content: center; /* 水平居中 */
+        align-items: center;
+        overflow: visible;
+}
+#egv2_61 {
+    width: 108px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+}
+
+    .container {
+        width: 108px;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        right: 216px;
+        /* 核心居中代碼 */
+        display: flex; /* 啟用彈性佈局 */
+        justify-content: center; /* 水平居中 */
+        align-items: center;
+        overflow: visible;
+    }
+
+    #v2_61 {
+        width: 72px;
+        color: rgba(19,17,25,1);
+        position: relative;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        #v2_61::after {
+            content: '';
+            position: absolute;
+            width: 100%; /* 寬度與文字一樣長 */
+            height: 3px; /* 橫桿厚度 */
+            bottom: -6px; /* 距離文字底部的距離，可視情況調整 */
+            left: 0;
+            background-color: rgba(19,17,25,1);
+            /* 初始狀態：中心縮小 */
+            transform: scaleX(0);
+            transform-origin: center;
+            transition: transform 0.3s ease-out;
+            border-radius: 50px;
+        }
+
+        #v2_61:hover::after {
+            transform: scaleX(1); /* 橫桿展開 */
+        }
+
+.hide-layer {
+    display: none !important;
+}
+#jpchoosed{
+    background: rgba(19,17,25,1);
+   width: 86px;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        right: 132px;
+        /* 核心居中代碼 */
+        display: flex; /* 啟用彈性佈局 */
+        justify-content: center; /* 水平居中 */
+        align-items: center;
+}
+#jpv2_62 {
+    width: 104px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+    .containerjp {
+        width: 86px;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        right: 132px;
+        /* 核心居中代碼 */
+        display: flex; /* 啟用彈性佈局 */
+        justify-content: center; /* 水平居中 */
+        align-items: center;
+    }
+
+    #v2_62 {
+        width: 70px;
+        color: rgba(19,17,25,1);
+        position: relative;
+        font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        #v2_62::after {
+            content: '';
+            position: absolute;
+            width: 100%; /* 寬度與文字一樣長 */
+            height: 3px; /* 橫桿厚度 */
+            bottom: -2px; /* 距離文字底部的距離，可視情況調整 */
+            left: 0;
+            background-color: rgba(19,17,25,1);
+            /* 初始狀態：中心縮小 */
+            transform: scaleX(0);
+            transform-origin: center;
+            transition: transform 0.3s ease-out;
+            border-radius: 50px;
+        }
+
+        /* 觸發效果：當滑鼠/手指碰到文字時 */
+        #v2_62:hover::after {
+            transform: scaleX(1); /* 橫桿展開 */
+        }
+
+#zhchoosed{
+   width: 80px;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        right: 52px;
+        /* 核心居中代碼 */
+        display: flex; /* 啟用彈性佈局 */
+        justify-content: center; /* 水平居中 */
+        align-items: center;
+        overflow: visible;
+}
+#zhv2_63 {
+    width: 80px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+    .containerzh {
+        width: 80px;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        right: 52px;
+        /* 核心居中代碼 */
+        display: flex; /* 啟用彈性佈局 */
+        justify-content: center; /* 水平居中 */
+        align-items: center;
+        overflow: visible;
+    }
+
+    #v2_63 {
+        width: 60px;
+        color: rgba(19,17,25,1);
+        position: relative;
+        font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        #v2_63::after {
+            content: '';
+            position: absolute;
+            width: 100%; /* 寬度與文字一樣長 */
+            height: 3px; /* 橫桿厚度 */
+            bottom: -2px; /* 距離文字底部的距離，可視情況調整 */
+            left: 0;
+            background-color: rgba(19,17,25,1);
+            /* 初始狀態：中心縮小 */
+            transform: scaleX(0);
+            transform-origin: center;
+            transition: transform 0.3s ease-out;
+            border-radius: 50px;
+        }
+
+        /* 觸發效果：當滑鼠/手指碰到文字時 */
+        #v2_63:hover::after {
+            transform: scaleX(1); /* 橫桿展開 */
+        }
+
+
+          .icon {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            opacity: 1;
+            overflow: hidden;
+            display: flex;     
+            align-items: center; 
+            white-space: nowrap;
+          }
+          .icon img {
+            max-width: 100%;  /* 最大寬度不超過容器 */
+            max-height: 100%; /* 最大高度不超過容器 */
+            flex-shrink: 0;      /* 防止圖片被文字擠壓變形 */
+            object-fit: contain;
+            border-radius: 16px;
+          }
+
+
+
+
+
+
+        #SNStitle{
+          color: rgba(19, 17, 25, 1);
+          font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          font-weight: 400;
+          margin-left: 20px;
+          font-size: 28px;
+          opacity: 1;
+          text-align: center;
+        
+          z-index: 5;
+          text-decoration: none;
+      }
+      #SNStitlejp{
+ color: rgba(19, 17, 25, 1);
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 28px;
+    opacity: 1;
+    text-align: center;
+   
+    z-index: 5;
+    text-decoration: none;
+
+}
+#SNStitlezh{
+ color: rgba(19, 17, 25, 1);
+     font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 28px;
+    opacity: 1;
+    text-align: center;
+   
+    z-index: 5;
+    text-decoration: none;
+
+}
+
+      .SNShold{
+      position: absolute;
+      max-width: 100%;  
+      max-height: 60px;   
+      left: 8%;
+      display: flex;       /* 讓內部的 .icon 和 .SNStitle 並排 */
+      align-items: center; /* 垂直居中對齊 */
+      width: fit-content;
+      cursor: pointer;
+      text-decoration: none;
+      z-index: 5;
+    }
+    .SNShold::after {
+            content: '';
+            position: absolute;
+            width: 100%; /* 寬度與文字一樣長 */
+            height: 3px; /* 橫桿厚度 */
+            bottom: +2px; /* 距離文字底部的距離，可視情況調整 */
+            left: 72px;
+            background-color: rgba(19, 17, 25, 1);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+            border-radius: 50px;
+        }
+        .SNShold:hover::after {
+        transform: scaleX(1);           /* 變回原寬度 */
+    }
+
+#Steamlink{
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  height: 1000px;
+  left: 0%;
+  overflow: hidden;
+}
+#coveryoutubeDIV{
+    width: 100%;
+    top: 740px;
+    position: absolute;
+    opacity: 1;
+     height: 800px; 
+    left: 0%;
+    text-align: left;
+    display: flex;
+}
+
+#coveryoutube {
+    left: 0%;
+    width: 60%;
+    height: auto;             /* 1. 把固定高度改為 auto */
+    aspect-ratio: 16 / 9;     /* 2. 強制設定寬高比為 16:9 */
+    top: 0%;
+    position: relative;
+    opacity: 1;
+    text-align: left;
+}
+#coveryoutube {
+    left: 0%;
+    width: 100%;
+    height: auto;             /* 1. 把固定高度改為 auto */
+    aspect-ratio: 16 / 9;    
+    position: absolute;
+    opacity: 1;
+    text-align: left;
+}
+#EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    left: 5%;
+     top: 0%;
+}
+
+#eg_EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    left: 20%;
+    top: 6%;
+}
+
+#zh_EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    left: 20%;
+    top: 6%;
+}
+
+#jp_EmotionHuntertitle{
+    width: 100%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    left: 20%;
+    top: 6%;
+}
+
+#icon_steam{
+    left: 20%;
+    top: 14%;
+
+}
+
+#eg_available{
+    left: 5%;
+    top: 24%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight:  Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_available{
+    left: 5%;
+    top: 24%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight:  Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_available{
+    left: 5%;
+    top: 24%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight:  Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+.v2_68 {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 0%;
+  overflow: hidden;
+}
+.v2_68 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+
+
+    #icon_1{
+      position: relative;
+      top: 6900px;
+      left: 8%;
+      
+}#icon_2{
+  position: relative;
+  top: 6980px;
+  left: 8%;
+}
+#icon_3{
+  position: relative;
+  top: 7060px;
+  left: 8%;
+}
+#icon_4{
+  position: relative;
+  top: 7140px;
+  left: 8%;
+}
+#icon_5{
+  position: relative;
+  top: 7220px;
+  left: 8%;
+}
+#icon_6{
+  position: relative;
+  top: 7300px;
+  left: 8%;
+}
+#icon_7{
+  position: relative;
+  top: 7380px;
+  left: 8%;
+}
+#icon_8{
+  position: relative;
+  top: 7460px;
+  left: 8%;
+}
+#icon_9{
+  position: relative;
+  top: 7540px;
+  left: 8%;
+}
+#icon_10{
+  position: relative;
+  top: 7620px;
+  left: 8%;
+}
+#zh_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 14%;
+}
+#zh_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 14%;
+}
+#zh_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 14%;
+}
+#zh_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 14%;
+}
+#zh_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 14%;
+}
+#zh_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 14%;
+}
+#zh_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 14%;
+}
+
+#jp_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 14%;
+}
+#jp_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 14%;
+}
+#jp_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 14%;
+}
+#jp_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 14%;
+}
+#jp_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 14%;
+}
+#jp_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 14%;
+}
+#jp_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 14%;
+}
+
+#eg_1_cotent{
+   position: relative;
+width: 100%;
+top: 8vh;
+left: 14%;
+}
+#eg_2_cotent{
+   position: relative;
+width: 100%;
+top: 16vh;
+left: 14%;
+}
+#eg_3_cotent{
+   position: relative;
+width: 100%;
+top: 24vh;
+left: 14%;
+}
+#eg_4_cotent{
+   position: relative;
+width: 100%;
+top: 32vh;
+left: 14%;
+}
+#eg_5_cotent{
+   position: relative;
+width: 100%;
+top: 40vh;
+left: 14%;
+}
+#eg_6_cotent{
+   position: relative;
+width: 100%;
+top: 48vh;
+left: 14%;
+}
+#eg_7_cotent{
+   position: relative;
+width: 100%;
+top: 56vh;
+left: 14%;
+}
+
+#icon_four{
+
+  display: none;
+}
+#GameContent{
+  position:  absolute;
+  width: 90%; 
+  top: 1080px;
+  height: 600px; 
+}
+
+#eg_GameContent_title{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_GameContent{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 1.8;
+    
+    letter-spacing: 1px;
+}
+#zh_GameContent_title{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_GameContent{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#jp_GameContent_title{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_GameContent{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+
+#zh_Worldview_title{
+    left: 10%;
+    width: 82%; 
+    top: 700px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_Worldview{
+    left: 10%;
+    width: 82%; 
+    top: 788px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#jp_Worldview_title{
+    left: 10%;
+    width: 82%; 
+    top: 700px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_Worldview{
+    left: 10%;
+    width: 82%; 
+    top: 788px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#eg_Worldview_title{
+    left: 10%;
+    width: 82%; 
+    top: 700px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_Worldview{
+    left: 10%;
+    width: 82%; 
+    top: 788px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+
+     line-height: 1.8;
+    
+    letter-spacing: 1px;
+}
+
+.youtubeplay {
+  position: absolute;
+  top: 3680px;
+  left: 0%;          
+  width: 100%;                   
+  transform: translateX(0%);
+}
+
+#Developer{
+  position:  absolute;
+  width: 90%; 
+  top: 4020px;
+  height: 600px; 
+}
+
+#eg_Developer_title{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_Developer{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 1.8;
+    
+    letter-spacing: 1px;
+}
+
+#zh_Developer_title{
+  left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_Developer{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+#jp_Developer_title{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_Developer{
+   left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#Worldview{
+   left: 0%;
+  position:  absolute;
+  width: 100%; 
+  top: 2000px;
+  height: 1200px; 
+}
+
+
+#WorldviewImages_1 {
+ width: 100%;
+  opacity: 1;
+  position: absolute;
+  left: 0%;
+  overflow: hidden;
+
+}
+#WorldviewImages_2 {
+ width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 320px;
+  left: 0%;
+  overflow: hidden;
+
+}
+
+#Campaign{
+  position:  absolute;
+  width: 90%; 
+  top: 4400px;
+  height: 1600px; 
+}
+
+#eg_Campaign_title{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#eg_Campaign{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+#eg_Campaigntext{
+    top:68%;
+    left: 10%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+     line-height: 1.8;
+    
+    letter-spacing: 1px;
+}.Email{
+ top: 8300px;
+    left:10%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+     font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 1.8;
+    
+    letter-spacing: 1px;
+
+}
+.Campaigntext2{
+   position:  absolute;
+  width: 90%; 
+  top: 5860px;
+  height: 1800px; 
+}
+#eg_Campaigntext2{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+     line-height: 1.8;
+    
+    letter-spacing: 1px;
+}
+#zh_Campaigntext2{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+     line-height: 2;
+    letter-spacing: 2px;
+}
+#jp_Campaigntext2{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+     line-height: 2;
+    letter-spacing: 2px;
+}
+#zh_Campaign_title{
+  left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#zh_Campaign{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#zh_Campaigntext{
+    top:68%;
+    left: 10%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#jp_Campaign_title{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+#jp_Campaign{
+   left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#jp_Campaigntext{
+    top:68%;
+    left: 10%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#icon_zeczec{
+   left: 10%;
+   top: 300px;
+}
+#Campaignimage{
+  position:  absolute;
+  width: 100%; 
+  top: 420px;
+  left: 4%;
+  height: 100%; 
+   border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#Campaignimage img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain;
+}
+.boldfront{
+   font-weight: bold;
+    font-size: 20px;
+
+}
+.v1_4 {
+   
+    height: 890vh;
+}
+
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+/* devlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlogdevlog */
+
+
+
+
+
+
+
+
+
+.eg_devtext_title_left{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+.eg_devtext_left{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 1.8;
+    
+    letter-spacing: 1px;
+}
+
+.jp_devtext_title_left{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+.jp_devtext_left{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.zh_devtext_title_left{
+    left: 10%;
+    top: 0%;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+.zh_devtext_left{
+    left: 10%;
+    top: 88px;
+    color: rgba(19, 17, 25, 1);
+    position:  absolute;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#devtext_1{
+  position:  absolute;
+  width: 90%; 
+  top: 760px;
+  height: 600px; 
+}
+#devtext_2{
+  position:  absolute;
+  width: 90%; 
+  top: 1840px;
+  height: 1000px; 
+}
+#devtext_3{
+  position:  absolute;
+  width: 90%; 
+  top: 2720px;
+  height: 1000px; 
+}
+#devtext_4{
+  position:  absolute;
+  width: 90%; 
+  top: 3560px;
+  height: 1000px; 
+}
+#devimage_1 {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 4300px;
+  height: 40vh; 
+  left: 0%;
+  overflow: hidden;
+}
+#devimage_1 img {
+  max-width: 100%;  /* 最大寬度不超過容器 */
+  max-height: 100%; /* 最大高度不超過容器 */
+  object-fit: contain; /* 保持比例，完整顯示 */
+}
+#devtext_5{
+  position:  absolute;
+  width: 90%; 
+  top: 4800px;
+  height: 1000px; 
+}
+#devtext_6{
+  position:  absolute;
+  width: 90%; 
+  top: 5300px;
+  height: 1000px; 
+}
+#icon_devgithub{
+   left: 10%;
+    top: 70%;
+}
+#icon_devx{
+   left: 10%;
+    top: 62%;
+}
+#icon_devpixiv{
+   left: 10%;
+    top: 50%;
+}
+
+
+}
