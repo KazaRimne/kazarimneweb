@@ -2504,7 +2504,7 @@ left: 4%;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 216px;
+        right: 200px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
@@ -2527,7 +2527,7 @@ left: 4%;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 216px;
+        right: 200px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
@@ -2571,11 +2571,11 @@ left: 4%;
 }
 #jpchoosed{
     background: rgba(19,17,25,1);
-   width: 80px;
+   width: 74px;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 132px;
+        right: 112px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
@@ -2593,11 +2593,11 @@ left: 4%;
     letter-spacing: 0.05em;
 }
     .containerjp {
-        width: 80px;
+        width: 74px;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 132px;
+        right: 112px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
@@ -2637,7 +2637,7 @@ left: 4%;
         }
 
 #zhchoosed{
-   width: 70px;
+   width: 60px;
         height: 60px;
         position: absolute;
         top: 0px;
@@ -2661,7 +2661,7 @@ left: 4%;
 }
 
     .containerzh {
-        width: 70px;
+        width: 60px;
         height: 60px;
         position: absolute;
         top: 0px;
