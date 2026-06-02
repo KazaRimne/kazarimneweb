@@ -2029,6 +2029,176 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
+@media screen and (max-aspect-ratio: 16/10) {
+    
+    #EmotionHuntertitle{
+    font-size: 48px;
+}
+
+#eg_EmotionHuntertitle{
+    font-size: 48px;
+}
+
+#zh_EmotionHuntertitle{
+    font-size: 48px;
+}
+
+#jp_EmotionHuntertitle{
+    font-size: 48px;
+}
+
+#eg_GameContent_title{
+    font-size: 48px;
+}
+
+#eg_GameContent{
+    font-size: 24px;
+}
+
+#jp_GameContent_title{
+    font-size: 48px;
+}
+
+#jp_GameContent{
+    font-size: 24px;
+}
+
+#zh_GameContent_title{
+    font-size: 48px;
+}
+
+#zh_GameContent{
+    font-size: 24px;
+}
+
+#zh_Worldview_title{
+    font-size: 48px;
+}
+
+#zh_Worldview{
+    font-size: 24px;
+}
+
+#jp_Worldview_title{
+    font-size: 48px;
+}
+
+#jp_Worldview{
+    font-size: 24px;
+}
+
+#eg_Worldview_title{
+    font-size: 48px;
+}
+
+#eg_Worldview{
+    font-size: 24px;
+}
+
+#eg_Developer_title{
+    font-size: 48px;
+}
+
+#eg_Developer{
+    font-size: 24px;
+}
+
+#zh_Developer_title{
+    font-size: 48px;
+}
+
+#zh_Developer{
+    font-size: 24px;
+}
+
+#jp_Developer_title{
+    font-size: 48px;
+}
+
+#jp_Developer{
+    font-size: 24px;
+}
+
+#eg_Campaigntext2{
+    font-size: 24px;
+}
+
+#zh_Campaigntext2{
+    font-size: 24px;
+}
+
+#jp_Campaigntext2{
+    font-size: 24px;
+}
+
+#eg_Campaign_title{
+    font-size: 48px;
+}
+
+#eg_Campaign{
+    font-size: 24px;
+}
+
+#zh_Campaign_title{
+    font-size: 48px;
+}
+
+#zh_Campaign{
+    font-size: 24px;
+}
+
+#jp_Campaign_title{
+    font-size: 48px;
+}
+
+#jp_Campaign{
+    font-size: 24px;
+}
+
+#eg_Campaigntext{
+    font-size: 24px;
+}
+
+#zh_Campaigntext{
+    font-size: 24px;
+}
+
+#jp_Campaigntext{
+    font-size: 24px;
+}
+
+.Email{
+    font-size: 24px;
+}
+
+.eg_devtext_title_left{
+    font-size: 48px;
+}
+
+.jp_devtext_title_left{
+    font-size: 48px;
+}
+
+.jp_devtext_left{
+    font-size: 24px;
+}
+
+.zh_devtext_title_left{
+    font-size: 48px;
+}
+
+.zh_devtext_left{
+    font-size: 24px;
+}
+.eg_devtext_left{
+   font-size: 24px;
+}
+
+
+}
+
+
+
 
 
 
