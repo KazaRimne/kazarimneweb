@@ -1991,7 +1991,8 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
-@media (max-width: 1024px) {
+
+@media screen and (max-aspect-ratio: 16/10) and (min-width: 601px) {
     
     #EmotionHuntertitle{
     font-size: 48px;
@@ -2166,7 +2167,6 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 .youtubeplay {
   top: 5160px;
 }
-  
 }
 
 
