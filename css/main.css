@@ -1064,7 +1064,7 @@ left: 4%;
 }
 .youtubeplay {
   position: absolute;
-  top: 5000px;
+  top: 4940px;
   left: 50%;                         /* 左端を画面の50%の位置に合わせる */
   transform: translateX(-50%);       /* 要素自身の幅の半分（50%）だけ左に戻す（これで完全中央） */
   
@@ -1128,7 +1128,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 .Campaigntext2{
    position:  absolute;
   width: 90%; 
-  top: 7500px;
+  top: 7580px;
   height: 1200px; 
 }
 #eg_Campaign_title{
@@ -1264,7 +1264,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     letter-spacing: 2px;
 }
 .Email{
- top: 9400px;
+ top: 9500px;
     left:8%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -1303,9 +1303,10 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     margin-left: 42px;
     font-size: 42px;
     opacity: 1;
-   text-align: left;
+    text-align: center;
+   
     z-index: 20;
-    text-decoration: none;
+    text-align: left;
 }
 #SNStitlejp{
  color: rgba(19, 17, 25, 1);
@@ -1314,9 +1315,10 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     margin-left: 42px;
     font-size: 42px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
+   
     z-index: 20;
-    text-decoration: none;
+   text-align: left;
 
 }
 #SNStitlezh{
@@ -1326,9 +1328,10 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     margin-left: 42px;
     font-size: 42px;
     opacity: 1;
-   text-align: left;
+    text-align: center;
+   
     z-index: 20;
-    text-decoration: none;
+    text-align: left;
 
 }
 
@@ -1401,56 +1404,56 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 #icon_1{
   position: relative;
-  top: 8600px;
+  top: 8700px;
 }
   
 #icon_2{
   position: relative;
-  top: 8680px;
+  top: 8780px;
 }
 
 #icon_3{
   position: relative;
-  top: 8760px;
+  top: 8860px;
 }
   
 #icon_4{
   position: relative;
-  top: 8840px;
+  top: 8940px;
 }
   
 #icon_5{
   position: relative;
-  top: 8920px;
+  top: 9020px;
 }
   
 #icon_6{
   position: relative;
-  top: 8200px;
+  top: 8300px;
   left: 50%;
 }
 
 #icon_7{
   position: relative;
-  top: 8280px;
+  top: 8380px;
   left: 50%;
 }
 
 #icon_8{
   position: relative;
-  top: 8360px; 
+  top: 8460px; 
   left: 50%;
 }
 
 #icon_9{
   position: relative;
-  top: 8440px;
+  top: 8540px;
   left: 50%;
 }
 
 #icon_10{
   position: relative;
-  top: 8520px;
+  top: 8620px;
   left: 50%;
 }
 
@@ -1837,7 +1840,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 #devtext_1{
   position:  absolute;
   width: 90%; 
-  top: 1020px;
+  top: 1080px;
   height: 600px; 
 }
 
@@ -2733,7 +2736,7 @@ left: 4%;
           margin-left: 20px;
           font-size: 28px;
           opacity: 1;
-         
+      
           z-index: 5;
           text-decoration: none;
       }
@@ -2756,7 +2759,7 @@ left: 4%;
     margin-left: 20px;
     font-size: 28px;
     opacity: 1;
-
+  
     z-index: 5;
     text-decoration: none;
 
@@ -2934,6 +2937,7 @@ left: 4%;
   max-height: 100%; /* 最大高度不超過容器 */
   object-fit: contain; /* 保持比例，完整顯示 */
 }
+
 
 #icon_1 {
   position: relative;
@@ -3121,7 +3125,7 @@ left: 14%;
 #GameContent{
   position:  absolute;
   width: 90%; 
-  top: 1000px;
+  top:1000px;
   height: 600px; 
 }
 
@@ -3529,7 +3533,7 @@ left: 14%;
     letter-spacing: 2px;
 }
 #zh_Campaigntext{
-    top:60%;
+    top:62%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3566,7 +3570,7 @@ left: 14%;
     letter-spacing: 2px;
 }
 #jp_Campaigntext{
-    top:60%;
+    top:62%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3708,50 +3712,51 @@ left: 14%;
 #devtext_2{
   position:  absolute;
   width: 90%; 
-  top: 2000px;
+  top: 2100px;
   height: 1000px; 
 }
 #devtext_3{
   position:  absolute;
   width: 90%; 
-  top: 2900px;
+  top: 3000px;
   height: 1000px; 
 }
 #devtext_4{
   position:  absolute;
   width: 90%; 
-  top: 3720px;
+  top: 3800px;
   height: 1000px; 
 }
 #devimage_1 {
   width: 100%;
   opacity: 1;
   position: absolute;
-  top: 4500px;
+  top: 47000px;
   height: 40vh; 
   left: 0%;
   overflow: hidden;
+}
+#devtext_5{
+  position:  absolute;
+  width: 90%; 
+  top: 5100px;
+  height: 1000px; 
+}
+#devtext_6{
+  position:  absolute;
+  width: 90%; 
+  top: 5600px;
+  height: 1000px; 
 }
 #devimage_1 img {
   max-width: 100%;  /* 最大寬度不超過容器 */
   max-height: 100%; /* 最大高度不超過容器 */
   object-fit: contain; /* 保持比例，完整顯示 */
 }
-#devtext_5{
-  position:  absolute;
-  width: 90%; 
-  top: 4920px;
-  height: 1000px; 
-}
-#devtext_6{
-  position:  absolute;
-  width: 90%; 
-  top: 5400px;
-  height: 1000px; 
-}
+
 #icon_devgithub{
    left: 10%;
-    top: 78%;
+    top: 80%;
 }
 #icon_devx{
    left: 10%;
