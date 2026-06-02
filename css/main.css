@@ -2278,7 +2278,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 body.no-scroll {
     overflow: hidden;
 }
