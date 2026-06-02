@@ -2300,6 +2300,39 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 .Campaigntext2{
   top: 7500px;
 }
+
+
+#devtext_2{
+  
+  top: 2300px;
+}
+#devtext_3{
+  
+  top: 3200px;
+}
+#devtext_3{
+  
+  top: 3900px;
+}
+#devimage_1 {
+ 
+  top: 470px;
+  height: 36%;
+}
+
+#icon_devgithub{
+   left: 10%;
+    top: 80%;
+}
+#icon_devx{
+   left: 10%;
+    top: 55%;
+}
+#icon_devpixiv{
+   left: 50%;
+    top: 55%;
+}
+  
 }
 
 
