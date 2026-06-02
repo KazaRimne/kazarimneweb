@@ -1303,8 +1303,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     margin-left: 42px;
     font-size: 42px;
     opacity: 1;
-    text-align: center;
-   
+   text-align: left;
     z-index: 20;
     text-decoration: none;
 }
@@ -1315,8 +1314,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     margin-left: 42px;
     font-size: 42px;
     opacity: 1;
-    text-align: center;
-   
+    text-align: left;
     z-index: 20;
     text-decoration: none;
 
@@ -1328,8 +1326,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     margin-left: 42px;
     font-size: 42px;
     opacity: 1;
-    text-align: center;
-   
+   text-align: left;
     z-index: 20;
     text-decoration: none;
 
@@ -2736,8 +2733,7 @@ left: 4%;
           margin-left: 20px;
           font-size: 28px;
           opacity: 1;
-          text-align: center;
-        
+         
           z-index: 5;
           text-decoration: none;
       }
@@ -2748,7 +2744,6 @@ left: 4%;
     margin-left: 20px;
     font-size: 28px;
     opacity: 1;
-    text-align: center;
    
     z-index: 5;
     text-decoration: none;
@@ -2761,8 +2756,7 @@ left: 4%;
     margin-left: 20px;
     font-size: 28px;
     opacity: 1;
-    text-align: center;
-   
+
     z-index: 5;
     text-decoration: none;
 
