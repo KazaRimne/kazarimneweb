@@ -761,7 +761,7 @@ left: 4%;
 }
 #coveryoutubeDIV{
     width: 100%;
-    top: 1160px;
+    top: 1100px;
     position: absolute;
     opacity: 1;
      height: 800px; 
@@ -1993,43 +1993,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-aspect-ratio: 16/10) {
+@media screen and (max-aspect-ratio: 16/10) and (min-width: 601px) {
     
     #EmotionHuntertitle{
     font-size: 48px;
@@ -2193,9 +2157,53 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 .eg_devtext_left{
    font-size: 24px;
 }
+#devimage_1 {
 
+  top: 4600px;
+  height: 28%;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2674,7 +2682,7 @@ left: 4%;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 180px;
+        right: 188px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
@@ -2697,7 +2705,7 @@ left: 4%;
         height: 60px;
         position: absolute;
         top: 0px;
-        right: 180px;
+        right: 188px;
         /* 核心居中代碼 */
         display: flex; /* 啟用彈性佈局 */
         justify-content: center; /* 水平居中 */
@@ -3051,7 +3059,7 @@ left: 4%;
     font-size: 32px;
     opacity: 1;
     text-align: left;
-    left: 5%;
+    left: 20%;
     top: 6%;
 }
 
@@ -3888,21 +3896,21 @@ left: 14%;
 #devtext_3{
   position:  absolute;
   width: 90%; 
-  top: 3100px;
+  top: 3000px;
   height: 1000px; 
 }
 #devtext_4{
   position:  absolute;
   width: 90%; 
-  top: 3900px;
+  top: 3800px;
   height: 1000px; 
 }
 #devimage_1 {
   width: 100%;
   opacity: 1;
   position: absolute;
-  top: 4800px;
-  height: 40vh; 
+  top: 47000px;
+  height: 20vh; 
   left: 0%;
   overflow: hidden;
 }
@@ -3915,7 +3923,7 @@ left: 14%;
 #devtext_6{
   position:  absolute;
   width: 90%; 
-  top: 5700px;
+  top: 5600px;
   height: 1000px; 
 }
 #devimage_1 img {
@@ -3926,7 +3934,7 @@ left: 14%;
 
 #icon_devgithub{
    left: 10%;
-    top: 82%;
+    top: 80%;
 }
 #icon_devx{
    left: 10%;
@@ -3936,6 +3944,9 @@ left: 14%;
    left: 10%;
     top: 60%;
 }
+#UnityAnalysis{
 
+  top: 60%;
+}
 
 }
