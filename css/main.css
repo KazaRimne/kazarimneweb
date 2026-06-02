@@ -2942,54 +2942,54 @@ left: 4%;
 }
 
 
-   #icon_1 {
-  position: relative;
-  top: 6980px;
-  left: 8%;
-}
-#icon_2 {
-  position: relative;
-  top: 7030px;
-  left: 8%;
-}
-#icon_3 {
+#icon_1 {
   position: relative;
   top: 7080px;
   left: 8%;
 }
-#icon_4 {
+#icon_2 {
   position: relative;
   top: 7130px;
   left: 8%;
 }
-#icon_5 {
+#icon_3 {
   position: relative;
   top: 7180px;
   left: 8%;
 }
-#icon_6 {
+#icon_4 {
   position: relative;
   top: 7230px;
   left: 8%;
 }
-#icon_7 {
+#icon_5 {
   position: relative;
   top: 7280px;
   left: 8%;
 }
-#icon_8 {
+#icon_6 {
   position: relative;
   top: 7330px;
   left: 8%;
 }
-#icon_9 {
+#icon_7 {
   position: relative;
   top: 7380px;
   left: 8%;
 }
-#icon_10 {
+#icon_8 {
   position: relative;
   top: 7430px;
+  left: 8%;
+}
+#icon_9 {
+  position: relative;
+  top: 7480px;
+  left: 8%;
+}
+#icon_10 {
+  position: relative;
+  top: 7530px;
   left: 8%;
 }
 #zh_1_cotent{
@@ -3128,7 +3128,7 @@ left: 14%;
 #GameContent{
   position:  absolute;
   width: 90%; 
-  top: 1080px;
+  top: 1000px;
   height: 600px; 
 }
 
@@ -3438,7 +3438,7 @@ left: 14%;
     letter-spacing: 1px;
 }
 #eg_Campaigntext{
-    top:62%;
+    top:60%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3536,7 +3536,7 @@ left: 14%;
     letter-spacing: 2px;
 }
 #zh_Campaigntext{
-    top:62%;
+    top:60%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3573,7 +3573,7 @@ left: 14%;
     letter-spacing: 2px;
 }
 #jp_Campaigntext{
-    top:62%;
+    top:60%;
     left: 10%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -3587,7 +3587,7 @@ left: 14%;
 }
 #icon_zeczec{
    left: 10%;
-   top: 360px;
+   top: 370px;
 }
 #Campaignimage{
   position:  absolute;
