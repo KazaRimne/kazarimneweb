@@ -2162,7 +2162,13 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   top: 4600px;
   height: 28%;
 }
-
+#Developer{
+  top: 4700px;
+}
+.youtubeplay {
+  top: 5160px;
+}
+  
 }
 
 
