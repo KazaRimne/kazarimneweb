@@ -1994,7 +1994,55 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 
 @media (max-width: 1024px) {
-    
+    body.no-scroll {
+    overflow: hidden;
+}
+  #xmain {
+ 
+  left: 74%;
+}
+
+.overlay{
+  
+left: 0%;
+}
+#eg_1 {
+  
+    font-size: 28px;
+}
+
+#zh_1 {
+  
+    font-size: 28px;
+}
+#jp_1 {
+  
+    font-size: 28px;
+}
+   .v2_51 {
+
+    left: 44px;
+}
+  .v2_52 {
+
+    font-size: 28px;
+}
+    .v2_50 {
+        width: 0px;
+        height: 0px;
+       
+    }
+        #v22_53 {
+        width: 110px;
+        color: rgba(255,255,255,1);
+        position: absolute;
+        top: 60px;
+        left: 44px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        opacity: 1;
+        text-align: left;
+    }
     #EmotionHuntertitle{
     font-size: 48px;
 }
@@ -2025,7 +2073,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     text-align: left;
 }
 #GameContent {
-        
+            top: 1800px;
         width: 90%;
     }
 #eg_GameContent_title{
@@ -2083,14 +2131,14 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 #eg_Worldview_title{
     font-size: 48px;
      left: 5%;
-     top: 105%;
+     top: 100%;
     width: 82%; 
 }
 
 #eg_Worldview{
-    font-size: 24px;
-     left: 5%;
-       top: 110%;
+    font-size: 22px;
+     left: 10%;
+       top: 105%;
     width: 82%; 
 }
 #WorldviewImages_1 {
@@ -2106,7 +2154,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
  width: 100%;
   opacity: 1;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 0%;
   overflow: hidden;
 
@@ -2310,13 +2358,13 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   
   top: 3200px;
 }
-#devtext_3{
+#devtext_4{
   
   top: 3900px;
 }
 #devimage_1 {
  
-  top: 470px;
+  top: 4700px;
   height: 36%;
 }
 
@@ -2551,7 +2599,7 @@ left: 4%;
     position: relative;
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 16px;
     opacity: 1;
     text-align: center;
     cursor: pointer;
@@ -2623,7 +2671,7 @@ left: 4%;
     position: relative;
     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 16px;
     opacity: 1;
     text-align: center;
     cursor: pointer;
@@ -2695,7 +2743,7 @@ left: 4%;
     position: relative;
     font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     font-weight: Medium;
-    font-size: 22px;
+    font-size: 16px;
     opacity: 1;
     text-align: center;
     cursor: pointer;
