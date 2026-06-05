@@ -934,6 +934,12 @@ $(document).ready(function(){
             $("#jpchoosed").fadeOut();
         
     });
+          if (userLang.startsWith('ja')) {
+        $("#v2_62").trigger('click'); 
+    } 
+    else if (userLang.startsWith('zh')) {
+        $("#v2_63").trigger('click');
+    }
   $("#eg_1_cotent, #jp_1_cotent, #zh_1_cotent").on('click', function() {
      $(".overlay").fadeOut(); 
      $('body').removeClass('no-scroll');
