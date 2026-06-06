@@ -934,12 +934,7 @@ $(document).ready(function(){
             $("#jpchoosed").fadeOut();
         
     });
-          if (userLang.startsWith('ja')) {
-        $("#v2_62").trigger('click'); 
-    } 
-    else if (userLang.startsWith('zh')) {
-        $("#v2_63").trigger('click');
-    }
+        
   $("#eg_1_cotent, #jp_1_cotent, #zh_1_cotent").on('click', function() {
      $(".overlay").fadeOut(); 
      $('body').removeClass('no-scroll');
@@ -974,6 +969,15 @@ $("#developlop").fadeOut();
         scrollTop: $("#Developer").offset().top
     }, 600);
 });
+
+
+          if (userLang.startsWith('ja')) {
+        $("#v2_62").trigger('click'); 
+    } 
+    // 2. 判定如果是中文（包含繁體 zh-tw, zh-hk / 簡體 zh-cn 等）
+    else if (userLang.startsWith('zh')) {
+        $("#v2_63").trigger('click');
+    }
 });
     </script>
 </body>
