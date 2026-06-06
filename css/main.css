@@ -3723,7 +3723,7 @@ left: 14%;
 }
 #zh_Developer{
     left: 10%;
-    top: 88px;
+    top: 64px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
@@ -3748,7 +3748,7 @@ left: 14%;
 }
 #jp_Developer{
    left: 10%;
-    top: 88px;
+    top: 64px;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
