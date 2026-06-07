@@ -1901,24 +1901,6 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
    left: 50%;
     top: 50%;
 }
-#devimage_2 {
-  width: 60%;
-  opacity: 1;
-  position: absolute;
-  top: 160px;
-  left: 20%;
-  overflow: hidden;
-}
-#devimage_2 img {
-  max-width: 100%;  /* 最大寬度不超過容器 */
-  max-height: 100%; /* 最大高度不超過容器 */
-  object-fit: contain; /* 保持比例，完整顯示 */
-}
-
-
-
-
-
 
 
 
@@ -4114,8 +4096,26 @@ left: 14%;
   width: 100%;
   opacity: 1;
   position: absolute;
-  top: 47000px;
-  height: 20vh; 
+  top: 4700px;
+  height: 50vh; 
+  left: 0%;
+  overflow: hidden;
+}
+#devimage_2 {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 6200px;
+  height: 80%; 
+  left: 0%;
+  overflow: hidden;
+}
+#devimage_3 {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 6600px;
+  height: 80%; 
   left: 0%;
   overflow: hidden;
 }
