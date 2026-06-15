@@ -2064,7 +2064,35 @@ width: 16%;
 }
 #icon_four{
 
-  display: none;
+  width: 100%;
+  height: 100%; 
+  position:absolute;
+  text-align: right;
+}
+
+#icon_11{
+  position: relative;
+   
+  top: 7588px;
+  left: 8.8%;
+}
+
+#icon_22{
+  position: relative;
+  top: 7668px;
+  left: 8.8%;
+}
+  
+#icon_33{
+  position: relative;
+   top: 7748px;
+  left: 8.8%;
+}
+#icon_44{
+  position: relative;
+  
+  top: 7828px;
+  left: 8.8%;
 }
 
 #coveryoutube {
@@ -2251,9 +2279,7 @@ width: 16%;
         left: 10%;
 }
 
-.Email{
-    font-size: 24px;
-}
+
 
 .eg_devtext_title_left{
     font-size: 48px;
@@ -2293,61 +2319,65 @@ width: 16%;
 }
 #icon_1{
   position: relative;
-  top: 8900px;
+  top: 9380px;
 }
   
 #icon_2{
   position: relative;
-  top: 8980px;
+  top:  9460px;
 }
 
 #icon_3{
   position: relative;
-  top: 9060px;
+  top: 9540px;
 }
   
 #icon_4{
   position: relative;
-  top: 9140px;
+ top: 8500px;
+  left: 50%;
 }
   
 #icon_5{
   position: relative;
-  top: 9220px;
+   top: 8580px;
+  left: 50%;
 }
   
 #icon_6{
   position: relative;
-  top: 8500px;
+   top: 8660px; 
   left: 50%;
 }
 
 #icon_7{
   position: relative;
-  top: 8580px;
+  top: 8740px;
   left: 50%;
 }
 
 #icon_8{
   position: relative;
-  top: 8660px; 
+  top: 8820px;
   left: 50%;
 }
 
 #icon_9{
   position: relative;
-  top: 8740px;
+   top: 8900px;
   left: 50%;
 }
 
 #icon_10{
   position: relative;
-  top: 8820px;
+  top: 8980px;
   left: 50%;
-}
-.Email{
- top: 9700px;
   
+  display: none;
+} 
+.Email{
+  top: 9840px;
+    font-size: 24px;
 }
 .Campaigntext2{
   top: 7500px;
@@ -3331,6 +3361,26 @@ left: 4%;
   object-fit: contain; /* 保持比例，完整顯示 */
 }
 
+#icon_11 {
+  position: relative;
+  top: 6010px;
+  left: 9.5%;
+}
+#icon_22 {
+  position: relative;
+  top: 6060px;
+  left: 9.5%;
+}
+#icon_33 {
+  position: relative;
+  top: 6110px;
+  left: 9.5%;
+}
+#icon_44 {
+  position: relative;
+  top: 6160px;
+  left: 9.5%;
+}
 
 #icon_1 {
   position: relative;
@@ -3377,11 +3427,13 @@ left: 4%;
   top: 7580px;
   left: 8%;
 }
-#icon_10 {
+ #icon_10 {
   position: relative;
   top: 7630px;
   left: 8%;
-}
+  
+  display: none;
+} 
 #zh_1_cotent{
    position: relative;
 width: 100%;
@@ -3513,7 +3565,10 @@ left: 14%;
 
 #icon_four{
 
-  display: none;
+  width: 100%;
+  height: 100%; 
+  position:absolute;
+  text-align: right;
 }
 #GameContent{
   position:  absolute;
