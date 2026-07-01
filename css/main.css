@@ -1265,7 +1265,7 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
     letter-spacing: 2px;
 }
 .Email{
- top: 9500px;
+ top: 6800px;
     left:8%;
     color: rgba(19, 17, 25, 1);
     position:  absolute;
@@ -1399,59 +1399,59 @@ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 
 #icon_1{
   position: relative;
-  top: 8700px;
+  top: 6000px;
 }
-  
+
 #icon_2{
   position: relative;
-  top: 8780px;
+  top: 6080px;
 }
 
 #icon_3{
   position: relative;
-  top: 8860px;
+  top: 6160px;
 }
-  
+
 #icon_4{
   position: relative;
-  top: 8940px;
+  top: 6240px;
 }
-  
+
 #icon_5{
   position: relative;
-  top: 9020px;
+  top: 6320px;
 }
-  
+
 #icon_6{
   position: relative;
-  top: 8300px;
+  top: 5600px;
   left: 50%;
 }
 
 #icon_7{
   position: relative;
-  top: 8380px;
+  top: 5680px;
   left: 50%;
 }
 
 #icon_8{
   position: relative;
-  top: 8460px; 
+  top: 5760px;
   left: 50%;
 }
 
 #icon_9{
   position: relative;
-  top: 8540px;
+  top: 5840px;
   left: 50%;
 }
 
 #icon_10{
   position: relative;
-  top: 8620px;
+  top: 5920px;
   left: 50%;
+  display: none;
 }
-
 .v2_94 {
   width: 186px;
   height: 57px;
